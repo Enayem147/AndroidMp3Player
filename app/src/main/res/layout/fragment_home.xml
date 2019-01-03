@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <fragment
+            android:name="com.example.a84965.musicplayer.fragment.BannerFragment"
+            android:id="@+id/fragmentBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:name="com.example.a84965.musicplayer.fragment.PlayListFragment"
+            android:id="@+id/fragmentPlayList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <fragment
+            android:name="com.example.a84965.musicplayer.fragment.CategoryFragment"
+            android:id="@+id/fragmentCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <fragment
+            android:name="com.example.a84965.musicplayer.fragment.AlbumFragment"
+            android:id="@+id/fragmentAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:name="com.example.a84965.musicplayer.fragment.FavoriteSongFragment"
+            android:id="@+id/fragmentSong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
